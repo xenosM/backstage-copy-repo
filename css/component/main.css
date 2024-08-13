@@ -1,0 +1,57 @@
+.issue__container{
+    background-color: red;
+    height: 100vh;
+
+}
+.issue__element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    scroll-snap-align:start;
+}
+.issue__img{
+    width: 420px;
+}
+.issue__text{
+    margin-bottom: 1.5rem;
+}
+.issue__number{
+    font-size: var(--size-lg);
+    font-weight: 600;
+}
+.issue__link{
+    color: white;
+    font-weight: bold;
+    font-size: var(--size-sm);
+    font-size: var(--size-base);
+}
+.issue__link:hover{
+    text-decoration: underline;
+}
+
+.issue-1{
+    background-color: #f6e0a4;
+}
+.issue-2{
+    background-color: #ff608c;
+}
+.issue-3 .issue__link{
+    color: #ff608c;
+}
+.issue-4{
+    background-color: #00c2b6;
+}
+.issue-5{
+    background-color: #fa6620;
+}
+.issue-6{
+    background-color: #ffbe00;
+}
+.issue-7{
+    background-color: #1939be;
+}
+.issue-8{
+    background-color: #e30512;
+}

@@ -1,0 +1,44 @@
+.footer__container
+{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.footer__leftside{
+    width: 320px;
+}
+.footer__leftside-content{
+    font-weight: bold;
+    font-size: var(--size-lg);
+    line-height: 25px;
+    margin-bottom: 0.5rem;
+}
+.footer__leftside-trademark{
+    font-size: var(--size-sm);
+    margin-bottom: 2rem;
+}.footer__leftside-link{
+    color: black;
+    text-decoration: underline;
+}
+.footer__leftside-privacy-link{
+    font-weight: bold;
+    font-size: var(--size-lg);
+}   
+
+.footer__rightside li {
+    margin-bottom: 0.25rem;
+}
+.footer__issue-link{
+    color: black;
+    font-size: var(--size-xl);
+    font-weight: 400;
+}
+.footer__issue-link:hover{
+    text-decoration: underline;
+}
+.footer__rightside,.footer__leftside{
+    margin: 1.5rem;
+}
